@@ -36,3 +36,6 @@ verify = [
   "dep:p3-field",
   "sp1-lib/verify",
 ]
+js = [
+  "getrandom/js",
+]

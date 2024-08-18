@@ -47,7 +47,9 @@ ethers = { version = "2", default-features = false }
 strum_macros = "0.26.4"
 strum = "0.26.3"
 thiserror = "1.0.63"
-hashbrown = "0.14.5"
+# hashbrown = "0.14.5"
+hashbrown = {git = "https://github.com/Chengcheng-S/hashbrown.git" ,version = "0.14.5" ,branch = "js"}
+
 sysinfo = "0.30.13"
 
 [features]
